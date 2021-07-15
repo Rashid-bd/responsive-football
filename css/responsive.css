@@ -1,8 +1,7 @@
-/* mobile devices  */
-/* @media only screen and (max-width: 768px){ */
-    @media only screen and (max-width:688px) {
-        
-    /* header section  */
+                    /****************
+                     mobile devices  
+                     ****************/
+@media only screen and (max-width:688px) {
     .container{
         width: 330px;
     }
@@ -16,18 +15,21 @@
         padding: 15px;
     }
     .head-details .head-title{
-        /* font-size: 36px; */
         font-size: 24px;
         margin-top: 0;
     }
     .head-details img{
         margin-top: 50px;
     }
-    /* players section  */
+    
+    /*********** players section ***********/
+
     .players{
         grid-template-columns: 1fr;
     }
-    /* teams section  */
+
+    /*********** teams section ***********/
+
     .team-area{
         margin-top: 40px;
     }
@@ -39,19 +41,18 @@
         padding-left: 25px;
     }
 
-    /* upcoming match section  */
+    /*********** upcoming match section ***********/
 
     .upcoming{
         flex-direction: column;
-        width: 100%;
-        
+        width: 100%;   
     }
     .upcoming-info{
         margin-left: 40px;
     }
     .upcoming-image{
         flex-direction: column;
-        margin-left: 2px; 
+        margin-left: 10px; 
     }
     .upcoming-link img{
         margin: 0;
@@ -59,7 +60,8 @@
         margin-top: 0;
     }
 
-    /* footer section  */
+    /*********** footer section ***********/
+
     .footer-area{
         margin-top: 50px;
     }
@@ -68,10 +70,12 @@
     }
 }
 
-/* for tab,iPad  */
+                /***********
+                 for tab,iPad  
+                 ***********/
 
 @media only screen and (min-width:689px) and (max-width:992px) {
-    /* header section */
+    /*********** header section ***********/
     .container{
         width: 100%;
     }
@@ -89,14 +93,14 @@
         padding-bottom: 20px;
     }
 
-    /* players area  */
+    /*********** players area ***********/
 
     .players{
         grid-template-columns: repeat(2, 1fr);
         margin: 5px;
     }
 
-    /* teams section  */
+    /*********** teams section ***********/
     
     .team-area{
         margin-top: 40px;
@@ -109,18 +113,16 @@
         padding-left: 25px;
     }
 
-    /* upcoming match section  */
+    /*********** upcoming match section ***********/
 
     .upcoming{
         flex-direction: column;
-        width: 100%;
-        
+        width: 100%;    
     }
     .upcoming-info{
         margin-left: 40px;
     }
     .upcoming-image{
-        /* flex-direction: column; */
         margin-left: 2px;
     }
     .upcoming-link img{
@@ -128,8 +130,5 @@
         margin-bottom: 30px;
         margin-left: 40px;
         margin-top: 0;
-    }
-
-    
-    
+    }   
 }

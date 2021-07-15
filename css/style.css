@@ -1,25 +1,28 @@
-
+            /*********** Fonts ***********/
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-/* Common Utilities  */
+
+/*********** Common Utilities ***********/
+
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 2px;
 }
 .main-center{
     display: grid;
     justify-content: center;
 }
 .container{
-    width: 1160px;
+    /* width: 1160px; */
+    width: 1020px;
+
 }
 .link-button{
     padding: 10px 24px;
     font-size: 16px;
     text-decoration: none;
     color:white;
-    /* background-image: linear-gradient(#ee1061cb, rgb(255, 123, 71)); */
     background-color: rgba(233, 35, 78, 0.836);
 }
-
 .header-area{
     background: #2D25A0;
     padding-top: 42px;
@@ -30,7 +33,7 @@ body{
     transition: transform 3s ease-in-out 0.3s;
 }
 
-/*********header section********/
+/********* header section ********/
 
 .header-item{
     display: flex;
@@ -44,7 +47,7 @@ body{
     margin-right: 36px;
 }
 .menu-item a:hover{
-    color: orange;
+    color: lightcoral;
 }
 .copa-america{
     display: grid;
@@ -55,9 +58,9 @@ body{
 }
 .head-details .head-title{
     color: #fff;
-    font-size: 64px;
-    letter-spacing: 2px;
-    font-weight: 700;
+    font-size: 59px;
+    /* letter-spacing: 2px; */
+    font-weight: 700px;
     margin-bottom: 27px;   
 }
 .copa-america:hover .head-title{
@@ -69,7 +72,7 @@ body{
     width: 100%;
 }
 
-/******** Players section**********/
+/******** Players section **********/
 
 .players-area{
     margin-top: 70px;
@@ -100,101 +103,102 @@ body{
     line-height: 25px;
 }
 
-    /*  ******** team section*********  */
+    /*********** team section **********/
+.team-title{
+    color:lightcoral;
+}
+.team-area{
+    background-color: lightcyan;
+    margin-top: 80px;
+}
+.team-area .team-title{
+    font-size: 50px;
+}
+.team-area .teams{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+}
+.teams img{
+    width: 250px;
+    height: 250px;
+}
 
-    .team-area{
-        margin-top: 80px;
-    }
-    .team-area .team-title{
-        font-size: 50px;
-    }
-    .team-area .teams{
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    }
-    .teams img{
-        width: 250px;
-        height: 250px;
-    }
-    
-    /* Upcoming Mathch Section  */
-    
-    .upcoming{
-        background-color: cornsilk;
-        display: flex;
-        justify-content: center;
-        margin-top: 70px;
-    }
-    .upcoming-info{
-        margin-top: 25px;
-        margin-bottom: 20px;
-        line-height: 1;
-    }
-    .upcoming-info h1{
-        color: black;
-        font-size: 40px;
-        font-weight: 900;
-    }
-    .button-2{
-        background-image: linear-gradient(#e02c6ebb, rgb(255, 123, 71));
-        /* background-color: red; */
-        padding: 20px 0px;
-        margin-bottom: 30px;
-        text-align: center;
-        width: 180px;
-        box-shadow:  0px 0px 40px rgba(0, 0, 0, 0.10);
-    }
-    .button-2 a{
-        text-decoration: none;
-        color: white;
-        font-size: 18px;
-        font-weight: 400;
-    }
-    .upcoming-image{
-        display: flex;
-        margin-left: 40px;
-        margin-top: 20px;
-        margin-right: 10px;
-        margin-bottom: 20px;
-    }
-    .upcoming-link img{
-        width: 300px;
-        height: 200px;
-        margin-top: 20px;
-        margin-left: 20px;
-        margin-right: 20px;
-        box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.10) ;
-    }
+/*********** Upcoming Mathch Section ***********/
 
-      /* footer section  */
-
-      .footer-area{
-        padding-bottom: 40px;
-        padding-top: 54px;
-        margin-top: 75px;
-        text-align: center;
-        /* background: #fbfbfd; */
-    }
-    .footer-area .logo{
-        height: 110px;
-        background: none;
-    }
-    .social-icons{
-        display: flex;
-        justify-content: center;
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-    .social-icons i{
-        border-radius: 50%;
-        margin-right:14px;
-        padding: 6px;
-        background: #d3d6e2;
-    }
-    .social-icons i:hover{
-        cursor: pointer;
-        background: lightskyblue;
-    }
-    .footer-area p{
-        font-size: 18px;
-    }
+.upcoming{
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+.upcoming-info{
+    margin-top: 25px;
+    margin-bottom: 20px;
+    line-height: 1;
+}
+.upcoming-info h1{
+    color: lightcoral;
+    font-size: 40px;
+    font-weight: 900;
+}
+.button-2{
+    /* background-image: linear-gradient(#e02c6ebb, rgb(255, 123, 71)); */
+    background-color: rgba(233, 35, 78, 0.836);
+    padding: 20px 0px;
+    margin-bottom: 30px;
+    text-align: center;
+    width: 180px;
+    box-shadow:  0px 0px 40px rgba(0, 0, 0, 0.10);
+}
+.button-2 a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+}
+.upcoming-image{
+    display: flex;
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+.upcoming-link img{
+    width: 300px;
+    height: 200px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.10) ;
+}
+  /*********** footer section ***********/
+  
+  .footer-area{
+    padding-bottom: 40px;
+    padding-top: 54px;
+    margin-top: 75px;
+    text-align: center;
+}
+.footer-area .logo{
+    height: 110px;
+    background: none;
+}
+.social-icons{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.social-icons i{
+    border-radius: 50%;
+    margin-right:14px;
+    padding: 6px;
+    background: #d3d6e2;
+}
+.social-icons i:hover{
+    cursor: pointer;
+    background: rgba(52, 52, 223, 0.801);
+}
+.footer-area p{
+    font-size: 18px;
+}
