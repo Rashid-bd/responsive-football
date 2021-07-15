@@ -1,5 +1,7 @@
 /* mobile devices  */
-@media only screen and (max-width: 768px){
+/* @media only screen and (max-width: 768px){ */
+    @media only screen and (max-width:688px) {
+        
     /* header section  */
     .container{
         width: 330px;
@@ -11,9 +13,11 @@
         grid-template-columns: 1fr;
         margin-top: 0;
         padding-bottom: 50px;
+        padding: 15px;
     }
     .head-details .head-title{
-        font-size: 36px;
+        /* font-size: 36px; */
+        font-size: 24px;
         margin-top: 0;
     }
     .head-details img{
@@ -29,10 +33,30 @@
     }
     .team-area .team-title{
         font-size: 30px;
+        padding-left: 10px;
     }
     .team-area .teams{
         padding-left: 25px;
     }
+
+    /* upcoming match section  */
+
+    .upcoming{
+        flex-direction: column;
+        width: 100%;
+        
+    }
+    .upcoming-info{
+        margin-left: 40px;
+    }
+    .upcoming-image{
+        flex-direction: column;
+        margin-left: 2px; 
+    }
+    .upcoming-link img{
+        margin: 0;
+    }
+
     /* footer section  */
     .footer-area{
         margin-top: 50px;

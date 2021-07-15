@@ -17,7 +17,7 @@ body{
     text-decoration: none;
     color:white;
     /* background-image: linear-gradient(#ee1061cb, rgb(255, 123, 71)); */
-    background-color: rgba(221, 29, 71, 0.836);
+    background-color: rgba(233, 35, 78, 0.836);
 }
 
 .header-area{
@@ -119,18 +119,18 @@ body{
     
     /* Upcoming Mathch Section  */
     
-    .result{
+    .upcoming{
         background-color: cornsilk;
         display: flex;
         justify-content: center;
         margin-top: 70px;
     }
-    .result-info{
+    .upcoming-info{
         margin-top: 25px;
         margin-bottom: 20px;
         line-height: 1;
     }
-    .result-info h1{
+    .upcoming-info h1{
         color: black;
         font-size: 40px;
         font-weight: 900;
@@ -150,12 +150,14 @@ body{
         font-size: 18px;
         font-weight: 400;
     }
-    .result-image{
+    .upcoming-image{
         display: flex;
         margin-left: 40px;
         margin-top: 20px;
+        margin-right: 10px;
+        margin-bottom: 20px;
     }
-    .result-link img{
+    .upcoming-link img{
         width: 300px;
         height: 200px;
         margin-top: 20px;
