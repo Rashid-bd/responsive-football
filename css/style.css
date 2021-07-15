@@ -1,0 +1,196 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/* Common Utilities  */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.main-center{
+    display: grid;
+    justify-content: center;
+}
+.container{
+    width: 1160px;
+}
+.link-button{
+    padding: 10px 24px;
+    font-size: 16px;
+    text-decoration: none;
+    color:white;
+    background-image: linear-gradient(#e02c6ebb, rgb(255, 123, 71));
+}
+
+.header-area{
+    background: #2D25A0;
+    padding-top: 42px;
+    overflow: hidden;
+}
+.head-details img:hover{
+    transform: rotate(360deg);
+    transition: transform 3s ease-in-out 0.3s;
+}
+
+/*********header section********/
+
+.header-item{
+    display: flex;
+    justify-content: space-between;
+}
+.header-area .menu-item a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    margin-right: 36px;
+}
+.menu-item a:hover{
+    color: orange;
+}
+.copa-america{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 50px;
+    margin-top: 60px;
+    padding-bottom: 85px;
+}
+.head-details .head-title{
+    color: #fff;
+    font-size: 64px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    margin-bottom: 27px;   
+}
+.copa-america:hover .head-title{
+    transform: scale(.8);
+    transition: transform 3s ease-in-out 0.3s;
+}
+
+.head-details img{
+    width: 100%;
+}
+
+/******** Players section**********/
+
+.players-area{
+    margin-top: 70px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 27px;
+}
+.player{
+    padding: 10px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.player img{
+    width: 100%;
+}
+.player .player-name{
+    margin-top: 16px;
+    margin-bottom: 0;
+    font-size: 28px;
+    color: #18191F;
+}
+.player .player-info{
+    margin-top: 10px;
+    font-size: 16px;
+    color: #6C6C6C;
+    line-height: 25px;
+}
+
+    /*  ******** team section*********  */
+
+    .team-area{
+        margin-top: 80px;
+    }
+    .team-area .team-title{
+        font-size: 50px;
+    }
+    .team-area .teams{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    }
+    .teams img{
+        width: 250px;
+        height: 250px;
+    }
+    
+    /* Upcoming Mathch Section  */
+    
+    .result{
+        background-color: cornsilk;
+        display: flex;
+        justify-content: center;
+        margin-top: 70px;
+    }
+    .result-info{
+        margin-top: 25px;
+        margin-bottom: 20px;
+        line-height: 1;
+    }
+    .result-info h1{
+        color: black;
+        font-size: 40px;
+        font-weight: 900;
+    }
+    .btn-2{
+        background-color: red;
+        padding: 20px 0px;
+        margin-bottom: 30px;
+        text-align: center;
+        width: 180px;
+        box-shadow:  0px 0px 40px rgba(0, 0, 0, 0.10);
+    }
+    .btn-2 a{
+        text-decoration: none;
+        color: white;
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .result-image{
+        display: flex;
+        margin-left: 40px;
+        margin-top: 20px;
+    }
+    .result-link img{
+        width: 300px;
+        height: 200px;
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.10) ;
+    }
+
+      /* footer section  */
+
+      .footer-area{
+        padding-bottom: 40px;
+        padding-top: 54px;
+        margin-top: 75px;
+        text-align: center;
+        /* background: #fbfbfd; */
+    }
+    .footer-area .logo{
+        height: 110px;
+        background: none;
+    }
+    .social-icons{
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .social-icons i{
+        border-radius: 50%;
+        margin-right:14px;
+        padding: 6px;
+        background: #d3d6e2;
+    }
+    .social-icons i:hover{
+        cursor: pointer;
+        background: lightskyblue;
+    }
+    .footer-area p{
+        font-size: 18px;
+    }
