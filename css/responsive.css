@@ -55,6 +55,8 @@
     }
     .upcoming-link img{
         margin: 0;
+        margin-bottom: 10px;
+        margin-top: 0;
     }
 
     /* footer section  */
@@ -64,4 +66,70 @@
     .footer-area .logo{
         height: 50px;
     }
+}
+
+/* for tab,iPad  */
+
+@media only screen and (min-width:689px) and (max-width:992px) {
+    /* header section */
+    .container{
+        width: 100%;
+    }
+    .header-item{
+        display: none;
+    }
+    .copa-america{
+        grid-template-columns: 1fr;
+        margin-top: 0;
+        padding-bottom: 20px;
+        padding: 15px;
+    }
+    .head-details{
+        margin: 20px;
+        padding-bottom: 20px;
+    }
+
+    /* players area  */
+
+    .players{
+        grid-template-columns: repeat(2, 1fr);
+        margin: 5px;
+    }
+
+    /* teams section  */
+    
+    .team-area{
+        margin-top: 40px;
+    }
+    .team-area .team-title{
+        font-size: 30px;
+        padding-left: 10px;
+    }
+    .team-area .teams{
+        padding-left: 25px;
+    }
+
+    /* upcoming match section  */
+
+    .upcoming{
+        flex-direction: column;
+        width: 100%;
+        
+    }
+    .upcoming-info{
+        margin-left: 40px;
+    }
+    .upcoming-image{
+        /* flex-direction: column; */
+        margin-left: 2px;
+    }
+    .upcoming-link img{
+        margin-right: 10px;
+        margin-bottom: 30px;
+        margin-left: 40px;
+        margin-top: 0;
+    }
+
+    
+    
 }
