@@ -1,0 +1,43 @@
+/* mobile devices  */
+@media only screen and (max-width: 768px){
+    /* header section  */
+    .container{
+        width: 330px;
+    }
+    .header-item{
+        display: none;
+    }
+    .copa-america{
+        grid-template-columns: 1fr;
+        margin-top: 0;
+        padding-bottom: 50px;
+    }
+    .head-details .head-title{
+        font-size: 36px;
+        margin-top: 0;
+    }
+    .head-details img{
+        margin-top: 50px;
+    }
+    /* players section  */
+    .players{
+        grid-template-columns: 1fr;
+    }
+    /* teams section  */
+    .team-area{
+        margin-top: 40px;
+    }
+    .team-area .team-title{
+        font-size: 30px;
+    }
+    .team-area .teams{
+        padding-left: 25px;
+    }
+    /* footer section  */
+    .footer-area{
+        margin-top: 50px;
+    }
+    .footer-area .logo{
+        height: 50px;
+    }
+}

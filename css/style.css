@@ -16,7 +16,8 @@ body{
     font-size: 16px;
     text-decoration: none;
     color:white;
-    background-image: linear-gradient(#e02c6ebb, rgb(255, 123, 71));
+    /* background-image: linear-gradient(#ee1061cb, rgb(255, 123, 71)); */
+    background-color: rgba(221, 29, 71, 0.836);
 }
 
 .header-area{
@@ -134,15 +135,16 @@ body{
         font-size: 40px;
         font-weight: 900;
     }
-    .btn-2{
-        background-color: red;
+    .button-2{
+        background-image: linear-gradient(#e02c6ebb, rgb(255, 123, 71));
+        /* background-color: red; */
         padding: 20px 0px;
         margin-bottom: 30px;
         text-align: center;
         width: 180px;
         box-shadow:  0px 0px 40px rgba(0, 0, 0, 0.10);
     }
-    .btn-2 a{
+    .button-2 a{
         text-decoration: none;
         color: white;
         font-size: 18px;
